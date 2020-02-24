@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "838b2069-eb7f-41dc-b118-85a488686df3",
 		"name": "Swagger Petstore",
-		"description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.\n\nContact Support:\n Email: apiteam@swagger.io",
+		"description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.\n\nContact Support:\n Email: apiteam@swagger.io\n \n \n Let's assume something is changed",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -1928,9 +1928,31 @@
 			"protocolProfileBehavior": {}
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "e3eb89c7-5e81-441e-825e-0edda3f851b1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "9528f489-0729-4dcd-8ae8-c36a5dfac8fc",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "baseUrl",
+			"id": "f95895ca-00a1-4e79-98df-f273c46233dd",
 			"key": "baseUrl",
 			"value": "https://petstore.swagger.io/v2",
 			"type": "string"
