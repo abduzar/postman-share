@@ -37,8 +37,8 @@
 									"variable": [
 										{
 											"key": "petId",
-											"value": "<long>",
-											"description": "ID of pet to return"
+											"value": "2",
+											"description": "ID of pet to return ( something changed )"
 										}
 									]
 								},
@@ -250,7 +250,7 @@
 							]
 						},
 						{
-							"name": "Deletes a pet",
+							"name": "Deletes a pet from server",
 							"request": {
 								"auth": {
 									"type": "oauth2"
@@ -1952,7 +1952,7 @@
 	],
 	"variable": [
 		{
-			"id": "72dbb078-1d66-46bc-8bed-8cc48718f938",
+			"id": "7a74bed7-3153-4283-b61a-c483c06cc959",
 			"key": "baseUrl",
 			"value": "https://petstore.swagger.io/v2",
 			"type": "string"
